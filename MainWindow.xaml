@@ -18,8 +18,8 @@
         </ComboBox>
         <GroupBox x:Name="gbEnvPicker" Header="Environment" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="130" Margin="20,62,0,0">
             <Grid HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top">
-                <RadioButton x:Name="rbDev" Content="Dev" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" IsChecked="True"/>
-                <RadioButton x:Name="rbUAT" Content="UAT" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0"/>
+                <RadioButton x:Name="rbDev" Content="Dev" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" IsChecked="True" IsEnabled="False"/>
+                <RadioButton x:Name="rbUAT" Content="UAT" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,30,0,0" IsChecked="True"/>
                 <RadioButton x:Name="rbProd" Content="Prod" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
             </Grid>
         </GroupBox>
@@ -30,7 +30,6 @@
                 <RadioButton x:Name="rbBoth" Content="Both" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0"/>
             </Grid>
         </GroupBox>
-        <TextBox x:Name="tbUsername" HorizontalAlignment="Right" Height="22" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Margin="0,20,20,0" HorizontalContentAlignment="Right" UndoLimit="99" Text="Enter Username..."/>
         <TextBox x:Name="tbBusJust" HorizontalAlignment="Left" Height="85" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" Margin="20,182,0,0" SpellCheck.IsEnabled="True" Text="Please enter a business justification for the access you are requesting..."/>
         <Button x:Name="btnCancel" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="75" Height="22" Margin="80,0,0,20" IsCancel="True"/>
         <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="75" Height="22" Margin="0,0,80,20"/>
